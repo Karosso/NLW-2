@@ -15,6 +15,8 @@ Projeto "Proffy", Next Level Week da [@Rocketseat](https://github.com/Rocketseat
 
 FrontEnd Web da aplicação Proffy que se trata de uma plataforma para professores e alunos se conectarem. Para professores darem aula e para os alunos estudarem.
 
+[Backend](https://github.com/Karosso/NLW-2-Backend)
+
 Produzido utilizando:
 
 1. Create React App
