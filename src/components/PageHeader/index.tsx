@@ -8,6 +8,7 @@ import './styles.css'
 
 interface PageHeatherProps { /* Um objeto qque recebe as variaveis que serão propriedades do component */
     title: string;
+    description?: string;
 }
 
 const PageHeader: React.FC<PageHeatherProps> = (props) => { /* O component que recebe variaveis por parametro precisa ser do tipo FC(FunctionComponent) */
@@ -23,6 +24,7 @@ const PageHeader: React.FC<PageHeatherProps> = (props) => { /* O component que r
 
             <div className="header-content">
             <strong>{props.title}</strong>
+            { props.description && <p>{ props.description }</p> }
 
             {props.children}
             </div>
